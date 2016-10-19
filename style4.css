@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.title
+{
+background-color:rgba(0,191,255,0.8);
+font-family:Lobster, cursive;
+font-size:150%;
+color: red;
+text-align: center;
+margin: 1% 20% 1% 20%;
+}
+
+body 
+{
+background-image: url(images/LOGO2.jpg);
+background-position: center;
+background-repeat: no-repeat; 
+background-attachment: fixed;
+background-size: cover;
+font-family:Lobster, cursive;
+}
+
+.container
+{
+width: 90%;
+margin: 0 auto;
+}
+
+.cols
+{
+float: left;
+margin: 0% 1% 1% 1%;
+text-align: left;
+text-indent: 5pt;
+background-color:rgba(255,171,0,0.5);
+}
+
+
+.container .cols.col-4 
+{
+	width: 50%;
+
+}
+.container .cols.col-3 
+{
+	width: 100%;
+	background-color:rgba(255,0,0,0.8);
+	font-family:Lobster;
+	font-size:90%;
+	text-align: center;
+	
+}
+
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+.clear:before,
+.clear:after{
+content: " ";
+display: table;
+}
+.container:after,
+.row:after,
+.clear:after {
+clear:both;
+}
+
+
+.menu
+{
+width:100%;
+}
+.menu ul
+{
+ list-type:none;
+ padding:1%;
+ position: fixed;
+}
+.menu li
+{
+	display:block;
+	float:left;
+	font-family:Lobster, cursive;
+	font-size: 15px;
+	background-color:#00B2EE;
+}
+.menu li a
+{
+color:black;
+text-decoration:none;
+padding: 5px;
+}
+.menu li a:hover
+{
+background-color: #00BFFF;
+}
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<Title> Галерея </title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/icon.jpg">
+	<link rel="stylesheet" href="style1.css">
+	<meta name="viewport" content="width=devise-width, initial-scale=1.0"/>
+	
+<script type="text/javascript">
+    function openImageWindow(src)
+	{
+    var image = new Image();
+    image.src = src;
+    var width = image.width;
+    var height = image.height;
+    window.open(src, '', 'left=400% ,top=200%,width=500,height=313')
+    }
+</script>
+	
+</head>
+<body>
+	<nav class="menu">
+		<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="gallery.html">Галерея</a></li>
+				<li><a href="ustroistvo.html">Устройство</a></li>
+				<li><a href="index1.html">Оставить отзыв</a></li>
+				<li><a href="sovety.html">Советы для начинающих</a></li>
+		</ul>
+	</nav>
+		<br>
+		<br>
+		<br>
+		<div class="title">
+			<p>Галерея наиболее известных мотоциклов</p>
+		</div>
+	<div class="container">
+	<section id="photo-wall">
+		<ul>
+			<li><a>
+					<img src="images/1.jpg" title="Honda CBR1000RR" onclick = 'openImageWindow(this.src)';>	
+				</a><h3 align="center" >Honda</h3>
+					<p align="center" >Honda CBR1000RR</p></li>
+			<li><a>
+					<img src="images/2.jpg" title="Yamaha R6" onclick = 'openImageWindow(this.src)'>
+				</a><h3 align="center">Yamaha</h3>
+					<p align="center">Yamaha R6</p></li>
+			<li><a>
+					<img src="images/3.jpg" title="Suzuki Hayabusa" onclick = 'openImageWindow(this.src)'>
+				</a><h3 align="center">Suzuki</h3>
+					<p align="center">Suzuki Hayabusa</p></li>
+			<li><a>
+					<img src="images/4.jpg" title="Kawasaki Ninja 600" onclick = 'openImageWindow(this.src)'>
+				</a><h3 align="center" >Kawasaki</h3>
+					<p align="center" >Kawasaki Ninja 600</p></li>
+			<li><a>
+					<img src="images/5.jpg" title="Ducati 1198" onclick = 'openImageWindow(this.src)'>
+				</a><h3 align="center" >Ducati</h3>
+					<p align="center" >Ducati 1198</p></li>
+			<li><a>
+					<img src="images/6.jpg" title="Aprilia RVS4" onclick = 'openImageWindow(this.src)'>
+				</a><h3 align="center" >Aprilia</h3>
+					<p align="center" >Aprilia RSV4</p></li>
+	</section>
+</html>
